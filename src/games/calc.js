@@ -30,7 +30,7 @@ const generateRound = () => {
   const question = `${firstOperand} ${operator} ${secondOperand}`;
   const correctAnswer = String(calculate(operator, firstOperand, secondOperand));
   return [question, correctAnswer];
-}
+};
 
 const runCalcGame = () => {
   const rounds = [];
