@@ -9,3 +9,15 @@
 <h2>For start game "Brain even"</h2>
 <p>$ brain-even</p>
 <a href="https://asciinema.org/a/604814" target="_blank"><img src="https://asciinema.org/a/604814.svg" /></a>
+<h2>For start game "Brain calc"</h2>
+<p>$ brain-calc</p>
+<a href="https://asciinema.org/a/604818" target="_blank"><img src="https://asciinema.org/a/604818.svg" /></a>
+<h2>For start game "Brain gcd"</h2>
+<p>$ brain-gcd</p>
+<a href="https://asciinema.org/a/604821" target="_blank"><img src="https://asciinema.org/a/604821.svg" /></a>
+<h2>For start game "Brain prime"</h2>
+<p>$ brain-prime</p>
+<a href="https://asciinema.org/a/604823" target="_blank"><img src="https://asciinema.org/a/604823.svg" /></a>
+<h2>For start game "Brain progression"</h2>
+<p>$ brain-progression</p>
+<a href="https://asciinema.org/a/604827" target="_blank"><img src="https://asciinema.org/a/604827.svg" /></a>
