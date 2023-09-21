@@ -1,5 +1,5 @@
 import { getRandomNumber } from '../utils.js';
-import runGameLogic, { roundsNumber } from '../gameLogic.js';
+import runGameLogic from '../gameLogic.js';
 
 const description = 'What is the result of the expression?';
 
@@ -22,7 +22,7 @@ const calculate = (operator, operand1, operand2) => {
   return Error('Incorrect operator');
 };
 
-const generateRound = () => {
+const getInfo = () => {
   const firstOperand = getRandomNumber(1, 100);
   const secondOperand = getRandomNumber(1, 100);
   const operator = getRandomOperator();
@@ -30,13 +30,5 @@ const generateRound = () => {
   const correctAnswer = String(calculate(operator, firstOperand, secondOperand));
   return [question, correctAnswer];
 };
-
-const runCalcGame = () => {
-  const rounds = [];
-  for (let i = 0; i < roundsNumber; i += 1) {
-    rounds[i] = generateRound();
-  }
-  return runGameLogic(rounds, description);
-};
-
-export default runCalcGame;
+const run = () => runGameLogic(getInfo, description);
+export default run;
